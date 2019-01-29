@@ -77,8 +77,8 @@ Under the board it spits out its predicted score and under that the amount of ch
 ¦p-1¦p-1¦p-1¦ 0 ¦p-1¦p-1¦p-1¦p-1¦
 ---------------------------------
 ¦r-1¦n-1¦b-1¦q-1¦k-1¦b-1¦n-1¦r-1¦
-25                                              <--- score prediction
-141936                                          <--- amount of searched chess boards
+-40                                            <--- score prediction
+11314                                          <--- amount of searched chess boards
 
 
 The goal with this project is, to make an AI which outperforms decent chess players. 
