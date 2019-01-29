@@ -125,12 +125,12 @@ def maximize(board, player, depth, alpha, beta):
     player2_pawn_promotion_line = [110, 111, 112, 113, 114, 115, 116, 117]
     pos = -1
     if depth == 0:
-        global iteration
-        iteration += 1
         return evaluation(board)
     max_value = alpha
     positions, moves = find_all_possible_moves(board, player)
     for move in moves:
+        global iteration
+        iteration += 1
         pawn_promotion = False
         pos += 1
         # perform move
@@ -207,12 +207,12 @@ def minimize(board, player, depth, alpha, beta):
     player1_pawn_promotion_line = [26, 27, 28, 29, 30, 31, 32, 33]
     pos = -1
     if depth == 0:
-        global iteration
-        iteration += 1
         return evaluation(board)
     min_value = beta
     positions, moves = find_all_possible_moves(board, player)
     for move in moves:
+        global iteration
+        iteration += 1
         pawn_promotion = False
         pos += 1
         # perform move
