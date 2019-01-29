@@ -18,81 +18,43 @@ The human player has to enter the coordinates of the piece to move and after tha
 
 
 
-¦r-2¦n-2¦b-2¦q-2¦k-2¦b-2¦n-2¦r-2¦
-
+Â¦r-2Â¦n-2Â¦b-2Â¦q-2Â¦k-2Â¦b-2Â¦n-2Â¦r-2Â¦
 ---------------------------------
-
-¦p-2¦p-2¦p-2¦p-2¦p-2¦p-2¦p-2¦p-2¦
-
+Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦p-1¦p-1¦p-1¦p-1¦p-1¦p-1¦p-1¦p-1¦
-
+Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦
 ---------------------------------
-
-¦r-1¦n-1¦b-1¦q-1¦k-1¦b-1¦n-1¦r-1¦
-
+Â¦r-1Â¦n-1Â¦b-1Â¦q-1Â¦k-1Â¦b-1Â¦n-1Â¦r-1Â¦
 
 
 x_piece:4
-
 y_piece:2
-
 x_move:4
-
 y_move:4
 
-
-
-
-¦r-2¦n-2¦b-2¦q-2¦k-2¦b-2¦n-2¦r-2¦
-
+Â¦r-2Â¦n-2Â¦b-2Â¦q-2Â¦k-2Â¦b-2Â¦n-2Â¦r-2Â¦
 ---------------------------------
-
-¦p-2¦p-2¦p-2¦p-2¦p-2¦p-2¦p-2¦p-2¦
-
+Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦p-1¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦p-1Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦p-1¦p-1¦p-1¦ 0 ¦p-1¦p-1¦p-1¦p-1¦
-
+Â¦p-1Â¦p-1Â¦p-1Â¦ 0 Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦
 ---------------------------------
-
-¦r-1¦n-1¦b-1¦q-1¦k-1¦b-1¦n-1¦r-1¦
-
-
-
+Â¦r-1Â¦n-1Â¦b-1Â¦q-1Â¦k-1Â¦b-1Â¦n-1Â¦r-1Â¦
 
 
 Then it's the AI's turn. It trys to find the best move with alpha-beta pruning (with move ordering). The evaluation function takes into consideration: 
@@ -100,51 +62,29 @@ position of the pieces (with the help of hash tables) and material balance. When
 Under the board it spits out its predicted score and under that the amount of chess boards it searched through:
 
 
-
-
-¦r-2¦n-2¦b-2¦q-2¦k-2¦b-2¦n-2¦r-2¦
-
+Â¦r-2Â¦n-2Â¦b-2Â¦q-2Â¦k-2Â¦b-2Â¦n-2Â¦r-2Â¦
 ---------------------------------
-
-¦p-2¦p-2¦ 0 ¦p-2¦p-2¦p-2¦p-2¦p-2¦
-
+Â¦p-2Â¦p-2Â¦ 0 Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦p-2Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦p-2¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦p-2Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦p-1¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦p-1Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦ 0 ¦
-
+Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦ 0 Â¦
 ---------------------------------
-
-¦p-1¦p-1¦p-1¦ 0 ¦p-1¦p-1¦p-1¦p-1¦
-
+Â¦p-1Â¦p-1Â¦p-1Â¦ 0 Â¦p-1Â¦p-1Â¦p-1Â¦p-1Â¦
 ---------------------------------
-
-¦r-1¦n-1¦b-1¦q-1¦k-1¦b-1¦n-1¦r-1¦
-
+Â¦r-1Â¦n-1Â¦b-1Â¦q-1Â¦k-1Â¦b-1Â¦n-1Â¦r-1Â¦
 25                                              <--- score prediction
-
 141936                                          <--- amount of searched chess boards
-
-
 
 
 The goal with this project is, to make an AI which outperforms decent chess players. 
 I would like it to reach an ELO somewhere around 1600. But in order to do that, I my number 1 priority is to improve the search depth. 
 The problem with this is, that it already takes an age to search at depth 4. I wonder if anyone could help me and point at some improvements I could make. 
 My programming skills are quite basic and I probably should comment my code better.
-
-
 
 Thanks a lot,
 
