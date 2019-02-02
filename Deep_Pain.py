@@ -26,9 +26,12 @@ def game():
                 and board[114] == "k-1":
             castling = input("Do you want to castle (big castle)[y/n]?")
             castling_move_human(castling, board)
+            global king1_moved
+            king1_moved = True
         if board[117] == "r-1" and board[116] == " 0 " and board[115] == " 0 " and board[114] == "k-1":
             castling = input("Do you want to castle? (small castle)[y/n]")
             castling_move_human(castling, board)
+            king1_moved = True
         if castling != "y":
             x_piece = int(input("x_piece:"))
             y_piece = int(input("y_piece:"))
@@ -146,11 +149,12 @@ def maximize(board, player, depth, alpha, beta):
         if isinstance(best_move, int):
             # perform move
             perform_move(player, board, best_move, best_piece)
+            check_king2_rook2_moved(board, best_move, best_piece)
         else:
             # perform castling
             perform_castling(board, best_move[0], best_move[1], best_piece[0], best_piece[1])
-        # check if king or rooks have moved
-        check_king2_rook2_moved(board, best_move, best_piece)
+            global king2_moved
+            king2_moved = True
         print(max_value)
     return max_value
 
@@ -380,14 +384,14 @@ def evaluation(board):
 def create_starting_board():
     board = ["x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x",
              "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x",
-             "x", "x", "r-2", "n-2", "b-2", "q-2", "k-2", "b-2", "n-2", "r-2", "x", "x",
-             "x", "x", "p-2", "p-2", "p-2", "p-2", "p-2", "p-2", "p-2", "p-2", "x", "x",
+             "x", "x", "r-2", " 0 ", "b-2", "q-2", "k-2", " 0 ", " 0 ", "r-2", "x", "x",
+             "x", "x", "p-2", "p-2", "p-2", "p-2", " 0 ", "p-2", "p-2", "p-2", "x", "x",
+             "x", "x", " 0 ", " 0 ", "n-2", " 0 ", "p-2", "n-2", " 0 ", " 0 ", "x", "x",
              "x", "x", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", "x", "x",
-             "x", "x", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", "x", "x",
-             "x", "x", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", "x", "x",
-             "x", "x", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", " 0 ", "x", "x",
-             "x", "x", "p-1", "p-1", "p-1", "p-1", "p-1", "p-1", "p-1", "p-1", "x", "x",
-             "x", "x", "r-1", "n-1", "b-1", "q-1", "k-1", "b-1", "n-1", "r-1", "x", "x",
+             "x", "x", " 0 ", " 0 ", " 0 ", "p-1", " 0 ", " 0 ", " 0 ", " 0 ", "x", "x",
+             "x", "x", " 0 ", " 0 ", " 0 ", " 0 ", "p-1", " 0 ", " 0 ", " 0 ", "x", "x",
+             "x", "x", "p-1", "p-1", " 0 ", "n-1", " 0 ", "p-1", "p-1", "p-1", "x", "x",
+             "x", "x", "r-1", " 0 ", "b-1", "q-1", "k-1", "b-1", " 0 ", "r-1", "x", "x",
              "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x",
              "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x"]
     return board
